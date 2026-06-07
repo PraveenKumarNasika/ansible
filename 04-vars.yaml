@@ -6,5 +6,6 @@
     DURATION: "130HRS"
 
   tasks: 
+  - name: play level variables
     debug:
       msg: I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}
