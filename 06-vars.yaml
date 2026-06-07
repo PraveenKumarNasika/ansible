@@ -1,6 +1,6 @@
 - name: demo on file level varaibles
   hosts: frontend
-  vars.files:
+  vars_files:
   - course.yaml
   tasks: 
   - name: file level variables
