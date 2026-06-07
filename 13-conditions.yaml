@@ -1,4 +1,4 @@
--  name: check number of live sessions
+- name: check number of live sessions
   hosts: local
   connection: local
   vars:
