@@ -1,5 +1,5 @@
 - name: Demo on prompt level variables
-  localhost: local
+  hosts: local
   connection: local
   vars_prompt:
   - name: username
