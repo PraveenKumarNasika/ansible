@@ -1,0 +1,16 @@
+- name: Demo on prompt level variables
+  localhost: local
+  connection: local
+  vars_prompt:
+  - name: username
+    prompt: "Please enter username"
+    pravite: true
+
+  - name: password
+    prompt: "pleae enter password"
+    private: false
+
+  tasks:
+  - name: print username & password
+    debug:
+      msg: Username is {{ username }}, Password is {{ password }}
