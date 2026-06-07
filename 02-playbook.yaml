@@ -1,0 +1,6 @@
+- name: print Hello World 
+  hosts: frontend
+  tasks: 
+  - name: print Hello world
+    debug:
+      msg: Hello World
